@@ -77,6 +77,11 @@ section {
   border: 4px solid lime;
 }
 
+body * {
+  border: 1px solid blue;
+  padding: 2px;
+}
+
 body {
   Display: flex;
   min-height: 100vh;
@@ -93,4 +98,8 @@ inner-column {
   display: block;
   border: 4px solid orange;
   padding: 10px;
+}
+
+graphic-diptych {
+  display: block;
 }

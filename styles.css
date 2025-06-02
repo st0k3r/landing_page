@@ -77,10 +77,10 @@ section {
   border: 4px solid lime;
 }
 
-body * {
+/*body * {
   border: 1px solid blue;
   padding: 2px;
-}
+}*/
 
 body {
   Display: flex;
@@ -102,4 +102,26 @@ inner-column {
 
 graphic-diptych {
   display: block;
+}
+
+graphic-diptych text-content {
+  display: block;
+}
+
+graphic-diptych picture {
+
+}
+
+@media (min-width: 700px) {
+  graphic-diptych {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  graphic-diptych text-content {
+    flex-basis: 50%;
+  }
+  graphic-diptych picture {
+    flex-basis: 50%;
+    margin: 10px;
+  }
 }

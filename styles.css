@@ -202,3 +202,10 @@ graphic-diptych text-content .button {
   background-color: var(--dark);
   color: var(--white);
 }
+
+.product {
+    display: flex;
+    list-style: none; /* Removes bullets */
+    gap: 10px; /* Adds space between items */
+    padding-left: 0; /* Removes default list indentation */
+}

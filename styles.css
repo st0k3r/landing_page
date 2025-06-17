@@ -23,7 +23,6 @@ html {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  /*background-color: var(--light);*/
 }
 
 img, picture, video, canvas, svg {
@@ -93,25 +92,18 @@ section {
   padding: 2px;
 }*/
 
-header {
-  /* background-color: var(--white); */
-}
-
 body {
   Display: flex;
   min-height: 100vh;
   flex-direction: column;
-  /*border: 10px solid blue;*/
 }
 
 main {
   flex-grow: 1;
-  /*border: 10px solid pink;*/
 }
 
 inner-column {
   display: block;
-  /*border: 4px solid orange;*/
   padding: 10px;
   width: 98%;
   max-width: 900px;
@@ -163,11 +155,7 @@ graphic-diptych {
   flex-direction: column;
   gap: 20px;
   color: var(--white);
-  /*background-color: var(--dark);*/
   padding: 10px;
-  /*border: 4px solid dodgerblue;*/
-  /*padding-top: 5vh;
-  padding-bottom: 5vh;*/
 }
 
 graphic-diptych picture {
@@ -210,14 +198,14 @@ h2.loud {
 
 .product {
   display: flex;
-  list-style: none; /* Removes bullets */
-  gap: 10px; /* Adds space between items */
-  padding-left: 0; /* Removes default list indentation */
+  list-style: none;
+  gap: 10px;
+  padding-left: 0;
 }
 
 product-card text-content {
-  display: block; /* Make the button a block element */
-  margin: 0 auto; /* Center horizontally */
-  width: 200px; /*  Give the button a defined width */
+  display: block;
+  margin: 0 auto;
+  width: 200px;
   text-align: center;
 }

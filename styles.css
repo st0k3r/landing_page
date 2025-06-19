@@ -238,3 +238,11 @@ product-card text-content p {
   height: 200px;
   background-color: var(--grey);
 }
+
+.action {
+  width: 600px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: dodgerblue;
+}

@@ -1,7 +1,8 @@
 html {
   --black: #333;
   --white: #efefef;
-  --color: rgb(60,130,246);
+  --color: dodgerblue;
+  --offblack: rgb(39, 37, 37);
   --dark: rgb(31,41,55);
   --light: lightblue;
 }
@@ -100,6 +101,11 @@ body {
 
 main {
   flex-grow: 1;
+}
+
+header {
+  color: var(--white);
+  background-color: var(--dark);
 }
 
 inner-column {
@@ -208,4 +214,9 @@ product-card text-content {
   margin: 0 auto;
   width: 200px;
   text-align: center;
+}
+
+product-card text-content p {
+  margin-top: 10px;
+  color: var(--offblack)
 }

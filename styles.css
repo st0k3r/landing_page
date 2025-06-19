@@ -5,6 +5,7 @@ html {
   --offblack: rgb(39, 37, 37);
   --dark: rgb(31,41,55);
   --light: lightblue;
+  --grey: rgb(224, 224, 224);
 }
 
 *, *::before, *::after {
@@ -230,4 +231,10 @@ product-card text-content {
 product-card text-content p {
   margin-top: 10px;
   color: var(--offblack)
+}
+
+.quote {
+  width: auto;
+  height: 200px;
+  background-color: var(--grey);
 }

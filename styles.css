@@ -104,8 +104,19 @@ main {
 }
 
 header {
-  color: var(--white);
   background-color: var(--dark);
+  color: var(--white)
+}
+
+header inner-column {
+  display: flex;
+  align-items: center;
+}
+
+header inner-column links {
+  display: flex;
+  gap: 10vh;
+  margin-left: auto;
 }
 
 inner-column {

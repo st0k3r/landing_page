@@ -114,6 +114,11 @@ header inner-column {
   align-items: center;
 }
 
+header inner-column h1{
+  margin-right: 10px;
+
+}
+
 header inner-column links {
   display: flex;
   gap: 10vh;
@@ -221,6 +226,17 @@ h2.loud {
   padding-left: 0;
 }
 
+@media screen and (max-width: 800px) {
+  .product {
+    flex-direction: column; /* Arranges items in a column on smaller screens */
+    align-items: center;
+  }
+}
+
+ul.product-list {
+  padding: 20px;
+}
+
 product-card text-content {
   display: block;
   margin: 0 auto;
@@ -231,6 +247,10 @@ product-card text-content {
 product-card text-content p {
   margin-top: 10px;
   color: var(--offblack)
+}
+
+product-card picture img {
+  max-width: 500px;
 }
 
 .quote {

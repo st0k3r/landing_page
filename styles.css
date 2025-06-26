@@ -255,8 +255,22 @@ product-card picture img {
 
 .quote {
   width: auto;
-  height: 200px;
+  height: 250px;
   background-color: var(--grey);
+}
+
+.quote p {
+  width: 400px;
+  margin: auto;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+p.person {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .action {

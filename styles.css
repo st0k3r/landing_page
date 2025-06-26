@@ -141,6 +141,19 @@ header inner-column {
   padding-bottom: 0vh;
 }
 
+footer {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  background-color: var(--dark);
+  color: var(--white)
+}
+
+footer inner-column p {
+  display: flex;
+  justify-content: center;
+}
+
 footer inner-column {
   padding-top: 0vh;
   padding-bottom: 0vh;

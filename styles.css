@@ -245,9 +245,17 @@ p.person {
   justify-content: flex-end;
 }
 
+div.action {
+  padding-left: auto;
+  padding-right: auto;
+}
 .action {
+  display: flex;
+  flex-direction: column;
   width: 600px;
   height: 200px;
-  margin: 0 auto;
+  padding: 50px;
   background-color: dodgerblue;
+  color: var(--white);
+  margin-left: 500px;
 }

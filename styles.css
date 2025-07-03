@@ -245,10 +245,6 @@ p.person {
   justify-content: flex-end;
 }
 
-div.action {
-  padding-left: auto;
-  padding-right: auto;
-}
 .action {
   display: flex;
   flex-direction: column;
@@ -257,5 +253,6 @@ div.action {
   padding: 50px;
   background-color: dodgerblue;
   color: var(--white);
-  margin-left: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }

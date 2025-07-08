@@ -6,6 +6,8 @@
   --dark: rgb(31, 41, 55);
   --light: lightblue;
   --grey: rgb(224, 224, 224);
+  --green: #00E436;
+  --darkgreen: #008751;
 }
 
 *, *::before, *::after {
@@ -183,7 +185,7 @@ graphic-diptych text-content .button {
 }
 
 .welcome {
-  background-color: var(--dark);
+  background-color: var(--darkgreen);
   color: var(--white);
 }
 

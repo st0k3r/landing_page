@@ -75,6 +75,7 @@ p a, li a {
 header, footer {
   background-color: var(--dark);
   color: var(--white);
+  height: 90px;
 }
 
 inner-column {
@@ -104,6 +105,23 @@ header inner-column links {
   display: flex;
   gap: 10vh;
   margin-left: auto;
+  margin-top: 25px;
+  flex-shrink: 0;
+  height: 50px;
+  width: 50px;
+}
+
+header inner-column links github {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
+
+header inner-column links github img {
+  height: 30px;
+  width: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 main {

@@ -104,13 +104,22 @@ header inner-column {
 }
 
 header inner-column logo {
-  margin-right: 10vh;
+  display: flex;
+  flex-shrink: 0;
+  margin-right: 20px;
 }
 
 links {
   display: flex;
   margin-left: auto;
   gap: 10vh;
+  flex-shrink: 1;
+}
+
+@media (max-width: 500px) {
+  links{
+    gap: 2vh;
+  }
 }
 
 links a {

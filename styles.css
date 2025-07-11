@@ -103,6 +103,11 @@ header inner-column {
   justify-content: flex-end;
 }
 
+header inner-column logo {
+  flex-shrink: 0;
+  margin-right: 10vh;
+}
+
 links {
   display: flex;
   margin-left: auto;

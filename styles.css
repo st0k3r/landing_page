@@ -92,36 +92,28 @@ footer inner-column {
   padding-bottom: 0;
 }
 
-header inner-column {
+header {
   display: flex;
   align-items: center;
 }
 
-header inner-column h1 {
-  margin-right: 10px;
-}
-
-header inner-column links {
+header inner-column {
   display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+links {
+  display: flex;
+  margin-left: auto;
   gap: 10vh;
-  margin-left: auto;
-  margin-top: 25px;
-  flex-shrink: 0;
-  height: 50px;
-  width: 50px;
 }
 
-header inner-column links github {
-  height: 50px;
-  width: 50px;
-  text-align: center;
-}
-
-header inner-column links github img {
-  height: 30px;
-  width: 30px;
-  margin-left: auto;
-  margin-right: auto;
+links a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 main {

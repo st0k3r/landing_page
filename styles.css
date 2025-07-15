@@ -292,6 +292,10 @@ p.person {
   color: var(--white);
 }
 
+.action_text p {
+  margin-top: 20px;
+}
+
 action_button {
   width: fit-content;
   height: fit-content;

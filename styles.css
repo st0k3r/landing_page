@@ -137,6 +137,7 @@ footer {
   display: flex;
   height: 100px;
   align-items: center;
+  background-image: url('images/footer.png');
 }
 
 footer inner-column p {

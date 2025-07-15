@@ -288,18 +288,20 @@ p.person {
   padding-bottom: 50px;
   padding-right: 10px;
   padding-left: 10px;
-  background-color: dodgerblue;
+  background-color: var(--darkgreen);
   color: var(--white);
 }
 
-.action_button {
+action_button {
   width: fit-content;
   height: fit-content;
   text-align: center;
-  background-color: var(--color);
+  width: 200px;
+  height: 200px;
+  /*background-color: var(--color);
   border: 1px solid var(--white);
   color: var(--white);
   padding: 10px 20px;
   border-radius: 10px;
-  text-decoration: none;
+  text-decoration: none;*/
 }

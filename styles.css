@@ -261,9 +261,9 @@ product-card picture img {
   width: auto;
   padding-bottom: 5%;
   padding-top: 5%;
+  background-color: var(--grey);
   padding-left: 25%;
   padding-right: 25%;
-  background-color: var(--grey);
 }
 
 .quote p {
@@ -282,7 +282,7 @@ ul.person {
   margin-top: 20px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 40px;
+  padding: 0px;
   list-style: none;
 }
 

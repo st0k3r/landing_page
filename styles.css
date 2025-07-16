@@ -3,7 +3,7 @@
   --white: #efefef;
   --color: dodgerblue;
   --offblack: rgb(39, 37, 37);
-  --dark: rgb(31, 41, 55);
+  --dark: #1D2B53;
   --light: lightblue;
   --grey: rgb(224, 224, 224);
   --green: #00E436;
@@ -283,6 +283,7 @@ ul.person {
   margin-right: auto;
   margin-left: auto;
   padding-right: 40px;
+  list-style: none;
 }
 
 @media (max-width: 580px) {
@@ -291,7 +292,14 @@ ul.person {
   }
   ul.person {
     font-size: 12px;
+  }
 }
+
+.list_image {
+  background:url('images/bullet.png');
+  background-repeat: no-repeat; 
+  padding-left:  40px;
+  margin: 3px 0;
 }
 
 .action {
@@ -305,7 +313,7 @@ ul.person {
   padding-bottom: 50px;
   padding-right: 10px;
   padding-left: 10px;
-  background-color: var(--darkgreen);
+  background-color: var(--dark);
   color: var(--white);
 }
 

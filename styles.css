@@ -286,6 +286,14 @@ ul.person {
   list-style: none;
 }
 
+.list_image {
+  background:url('images/bullet.png');
+  background-size: 32px 32px;
+  background-repeat: no-repeat; 
+  padding-left:  40px;
+  margin: 3px 0;
+}
+
 @media (max-width: 580px) {
   .quote {
     padding: 5%;
@@ -296,13 +304,10 @@ ul.person {
   ul.person {
     font-size: 12px;
   }
-}
-
-.list_image {
-  background:url('images/bullet.png');
-  background-repeat: no-repeat; 
-  padding-left:  40px;
-  margin: 3px 0;
+  .list_image {
+    background-size: 16px 16px;
+    padding-left: 20px;
+  }
 }
 
 .action {

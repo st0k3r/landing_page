@@ -236,6 +236,12 @@ ul.product-list {
   padding: 20px;
 }
 
+product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 product-card text-content {
   display: block;
   margin: 0 auto;
@@ -246,10 +252,6 @@ product-card text-content {
 product-card text-content p {
   margin-top: 10px;
   color: var(--offblack);
-}
-
-product-card picture img {
-  max-width: 200px;
 }
 
 .quote {

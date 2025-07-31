@@ -31,6 +31,7 @@ body {
   min-height: 100vh;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  background-color: var(--white)
 }
 
 img, picture, video, canvas, svg {
@@ -338,9 +339,6 @@ ul.person {
 }
 
 div.action_button {
-  /*width: fit-content;
-  height: fit-content;
-  text-align: center;*/
   width: 128px;
   height: 128px;
   background-image: url('images/jack.png');

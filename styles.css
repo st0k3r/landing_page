@@ -255,6 +255,16 @@ product-card text-content p {
   color: var(--offblack);
 }
 
+div.frank_button {
+  width: 128px;
+  height: 128px;
+  background-image: url('images/frank.png');
+}
+
+div.frank_button:hover {
+  background-image: url('images/frank_ani.png');
+}
+
 .quote {
   display: flex;
   flex-direction: column;

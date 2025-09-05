@@ -265,6 +265,36 @@ div.frank_button:hover {
   background-image: url('images/frank_ani.png');
 }
 
+div.witch_button {
+  width: 128px;
+  height: 128px;
+  background-image: url('images/witch.png');
+}
+
+div.witch_button:hover {
+  background-image: url('images/witch_ani.png');
+}
+
+div.drac_button {
+  width: 128px;
+  height: 128px;
+  background-image: url('images/drac.png');
+}
+
+div.drac_button:hover {
+  background-image: url('images/drac_ani.png');
+}
+
+div.ufo_button {
+  width: 128px;
+  height: 128px;
+  background-image: url('images/ufo.png');
+}
+
+div.ufo_button:hover {
+  background-image: url('images/ufo_ani.png');
+}
+
 .quote {
   display: flex;
   flex-direction: column;
